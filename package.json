@@ -1,0 +1,20 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "\"A simple pagination wit Node, Express and mongoDB\"",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Amudala Eric\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
