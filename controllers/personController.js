@@ -14,11 +14,10 @@ module.exports.getUsers = catchAsync(async (req, res, next) => {
     const persons = await PersonsData.find();
 
     // console.log(persons);
-    
     const resultsData = getPaginationResults(persons, page, limit);
     
     res.status(200).json({
-        persons
+        resultsData
     });
 });
 

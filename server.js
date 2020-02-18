@@ -12,7 +12,7 @@ process.on('uncaughtException', err => {
 dotenv.config({ path:'./config.env' });
 const DB = process.env.DATABASE_LOCAL;
 
-mongoose.connect(DB, {
+mongoose.connect( DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true 
 })
